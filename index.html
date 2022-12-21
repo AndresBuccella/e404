@@ -17,79 +17,197 @@
     />
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+    href="https://fonts.googleapis.com/css?family=Inconsolata"
+      rel="stylesheet"
+    />
+    <link
+    href="https://fonts.googleapis.com/css?family=Space+Mono"
+      rel="stylesheet"
+    />
+    <link
+    href="https://fonts.googleapis.com/css?family=Montserrat"
       rel="stylesheet"
     />
 
-    <title>Devchallenges</title>
+    <title>404 not found</title>
 
     <style>
-      body {
-        font-family: "Poppins", sans-serif;
+
+      #e404, p{
+        color: #333333;
       }
 
-      ul {
-        padding-left: 24px;
+      #e404{
+        position: absolute;
+        width: 133px;
+        height: 25px;
+        top: 20px;
+        left: 24px;
+
+        font-family: 'Inconsolata';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 25.18px;
+        letter-spacing: -0.08em;
+        text-transform: uppercase;
       }
 
-      li {
-        margin-bottom: 8px;
+      #scarecrow{
+        position: absolute;
+        max-width: 286.83px;
+        min-height: 238px;
+        top: 109px;
+        left: 44px;
       }
 
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
+      p{
+        position: absolute;
+        width: 328px;
+        height: 81px;
+        left: 23px;
+        top: 579px;
 
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
+        font-family: 'Space Mono';
+        font-style: normal;
         font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
       }
 
-      .welcome-text h1 {
-        font-size: 1.5rem;
+      #alert-404{
+        position: absolute;
+        width: 350px;
+        height: 142px;
+        left: 24px;
+        top: 407px;
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+
       }
 
-      .welcome-text a {
-        color: #f7542e;
+      
+      #btn-toHome{
+        position: absolute;
+        width: 216px;
+        height: 68px;
+        left: 24px;
+        top: 726px;
+        position: absolute;
+
+
+        background: #333333;
+      }
+
+      #btn-toHome > span{
+
+        width: 130px;
+        height: 21px;
+        left: 67px;
+        top: 750px;
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+
+        letter-spacing: -0.035em;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+      }
+
+      footer > p{
+        position: absolute;
+        width: 287px;
+        height: 17px;
+        left: 46px;
+        top: 908px;
+        margin-bottom: 24px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+
+        text-align: center;
+
+        color: #BDBDBD;
+      }
+
+      @media only screen and (min-width: 450px) {
+        #e404{
+          top: 20px;
+          left: 24px;
+          
+          line-height: 25.18px;
+        }
+        
+        #scarecrow{
+          max-width: 539.22px;
+          min-height: 447.43px;
+          top: 265px;
+          left: 77px;
+        }
+        
+        p{
+          width: 381px;
+          height: 108px;
+          left: 736px;
+          top: 491px;
+
+          font-size: 24px;
+          line-height: 36px;
+        }
+
+        #alert-404{
+          width: 586px;
+          height: 190px;
+          left: 735px;
+          top: 265px;
+
+          font-size: 64px;
+          line-height: 94.78px;
+          letter-spacing: -0.035em;
+        }
+
+        
+        #btn-toHome{
+          left: 740px;
+          top: 663px;
+          position: absolute;
+        }
+
+        #btn-toHome > span{
+          left: 67px;
+          top: 750px;
+
+          line-height: 20.73px;
+        }
+
+        footer > p{
+          left: 577px;
+          top: 1039px;
+        }
       }
     </style>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+    <h1 id="e404">404 not found</h1>
+    <img id="scarecrow" src="Scarecrow.png" alt="Scarecrow">
+    <p id="alert-404">I have bad news for you</p>
+    <p>The page you are looking for might be removed or is temporarily unaviable</p>
+    <button id="btn-toHome"><span>back to homepage</span></button>
+    <footer>
+      <p>created by <b>username</b> - devChallenges.io</p>
+    </footer>
   </body>
 </html>
